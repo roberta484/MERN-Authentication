@@ -48,7 +48,7 @@ export const SignUpApi = AsyncHandler(async (req: Request, res: Response) => {
     .cookie("auth", token, {
       httpOnly: true,
       secure: ParsedEnv.NODE_ENV === "production",
-      sameSite: "strict",
+      sameSite: "none",
       maxAge: 1000 * 60 * 60 * 24,
     })
     .status(HttpStatusCode.CREATED)
@@ -130,7 +130,7 @@ export const SignInApi = AsyncHandler(async (req: Request, res: Response) => {
     .cookie("auth", token, {
       httpOnly: true,
       secure: ParsedEnv.NODE_ENV === "production",
-      sameSite: "strict",
+      sameSite: "none",
       maxAge: 1000 * 60 * 60 * 24,
     })
     .status(HttpStatusCode.OK)
