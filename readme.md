@@ -2,6 +2,12 @@
 
 A robust authentication application built using the MERN stack with advanced features, providing users with a secure and seamless experience.
 
+
+## 🔗 Links
+- Live: https://gorgeous-palmier-38585b.netlify.app
+- Code: https://github.com/ReynoldArun09/MERN-Advanced-Authentication
+
+
 ## 🌟 Features
 
 - **User Authentication:**
