@@ -31,6 +31,7 @@ A robust authentication application built using the MERN stack with advanced fea
 - **Testing:**
 
   - Unit test with Jest and supertest for the server-side.
+  - Api testing with vitest and mock service worker
 
 - **Containerization:**
 
@@ -60,6 +61,8 @@ A robust authentication application built using the MERN stack with advanced fea
   - Zod for validation
   - Tanstack Query
   - Axios
+  - Vitest
+  - Mock Service Worker
 
 - **Backend:**
 
