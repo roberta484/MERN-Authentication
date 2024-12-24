@@ -5,7 +5,7 @@ A robust authentication application built using the MERN stack with advanced fea
 
 ## 🔗 Links
 - Live: https://gorgeous-palmier-38585b.netlify.app
-- Code: https://github.com/ReynoldArun09/MERN-Advanced-Authentication
+- Code: https://github.com/roberta484/MERN-Authentication.git
 
 
 ## 🌟 Features
@@ -99,8 +99,8 @@ A robust authentication application built using the MERN stack with advanced fea
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/ReynoldArun09/MERN-Advanced-Authentication
-   cd MERN-Advanced-Authentication
+   git clone https://github.com/roberta484/MERN-Authentication.git
+   cd MERN-Authentication
    ```
 
 2. **Environment Configuration**
