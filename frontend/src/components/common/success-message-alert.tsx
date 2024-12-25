@@ -1,6 +1,6 @@
+import { memo } from "react";
 import { CheckIcon } from "@radix-ui/react-icons";
 import { Alert, AlertDescription, AlertTitle } from "../ui/alert";
-import { memo } from "react";
 
 export interface MessageProps {
   message: string | null;

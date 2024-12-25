@@ -1,4 +1,9 @@
+import { useEffect } from "react";
 import { MailIcon, Loader } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { ForgotPasswordMutation } from "@/services/mutations";
 import ErrorMessage from "../common/error-message-alert";
 import SuccessMessage from "../common/success-message-alert";
 import { Button } from "../ui/button";
@@ -10,11 +15,6 @@ import {
   FormMessage,
 } from "../ui/form";
 import { Input } from "../ui/input";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { ForgotPasswordMutation } from "@/services/mutations";
-import { useEffect } from "react";
 
 const emailSchema = z.object({
   email: z.string().email("Please enter a valid email address."),
