@@ -1,6 +1,6 @@
+import { Laptop, Moon, Sun } from "lucide-react";
 import useTheme from "@/hooks/useTheme";
 import { Button } from "../ui/button";
-import { Laptop, Moon, Sun } from "lucide-react";
 
 export default function ThemeButton() {
   const { theme, setTheme } = useTheme();
