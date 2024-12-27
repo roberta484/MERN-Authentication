@@ -1,5 +1,7 @@
+import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { useNavigate, useParams } from "react-router-dom";
 import { Lock, Loader, EyeClosed, Eye } from "lucide-react";
-import { Button } from "../ui/button";
 import {
   Form,
   FormControl,
@@ -9,11 +11,9 @@ import {
   FormMessage,
 } from "../ui/form";
 import { Input } from "../ui/input";
-import { useForm } from "react-hook-form";
-import { useState } from "react";
 import { UpdatePasswordMutation } from "@/services/mutations";
-import { useNavigate, useParams } from "react-router-dom";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { Button } from "../ui/button";
 import { UpdateSchema, UpdateSchemaType } from "@/schemas/auth-schemas";
 
 export default function ResetPasswordForm() {
