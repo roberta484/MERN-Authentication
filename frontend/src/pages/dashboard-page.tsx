@@ -1,3 +1,4 @@
+import { formatRelative } from "date-fns";
 import ThemeButton from "@/components/common/theme-button";
 import { Button } from "@/components/ui/button";
 import {
@@ -13,7 +14,6 @@ import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { SignOutMutation } from "@/services/mutations";
 import { VerifyUserQuery } from "@/services/queries";
-import { formatRelative } from "date-fns";
 
 export default function DashboardPage() {
   const { data } = VerifyUserQuery();
