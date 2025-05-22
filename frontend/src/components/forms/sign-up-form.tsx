@@ -28,6 +28,7 @@ export default function SignUpForm() {
       password: "",
     },
   });
+  
   const { mutate: Signup, isPending, error, data } = SignUpMutation();
 
   const handleSubmit = (values: SignupSchemaType) => {
